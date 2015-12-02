@@ -7,7 +7,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # Applications to be installed
-APP_LIST="tmux mutt lynx rtorrent weechat mat mc xclip vim"
+APP_LIST="build-essential git tmux mutt lynx rtorrent weechat mat mc xclip vim curl mplayer vlc gnupg keepnote audcious gummi"
 
 # Update Apt and upgrade current packages
 apt-get update && apt-get upgrade -y
